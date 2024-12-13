@@ -1,0 +1,64 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-image: url(guitar.jpg);
+    background-size: cover;
+}
+
+.flex-container {
+    /* border: 10px solid red; */
+}
+
+.flex-item {
+    padding: 5px;
+    /* border: 5px solid rebeccapurple; */
+    /* width: 100px; */
+}
+
+.flex-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+form {
+    padding: 35px;
+    /* border: 5px solid red; */
+    border-radius: 5%;
+    background-image: url(back2.jpg);
+    background-size: cover;
+}
+
+#name {
+    width: 100px;
+    margin-left: 81px;
+}
+
+#password {
+    width: 100px;
+    margin-left: 50px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+button:hover {
+    background-color: rgb(106, 131, 221);
+    transition: 2s;
+}
